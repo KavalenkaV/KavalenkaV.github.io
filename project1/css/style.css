@@ -1,0 +1,340 @@
+.website {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10% 24%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+}
+
+.btn-close {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.btn-close a{
+	display: block;
+	width: 140px;
+	height: 140px;
+	background: url(../Images/website/video-close-btn.png) 20px -20px no-repeat;
+}
+/*Модальное окно*/
+
+.fl-l {
+	float: left;
+}
+
+.fl-r {
+	float: right;
+}
+
+.gr {
+	color: #6d6c6c;
+}
+
+.taho-11 {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.taho-9 {
+	font-family: Tahoma;
+	font-size: 9px;
+}
+
+.taho-10 {
+	font-family: Tahoma;
+	font-size: 10px;
+}
+
+.taho-12 {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.taho-13 {
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+.taho-14 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.taho-15 {
+	font-family: Tahoma;
+	font-size: 15px;
+}
+
+.bl {
+	color: black;
+}
+
+.w100 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*Заготовки*/
+
+body {
+	background: #e4e4e4;
+}
+
+.top_head{
+	min-height: 36px;
+	background: url(../images/Head/head_top_02.png) repeat-x;
+}
+
+.logo {
+	width: 240px;
+	height: inherit;
+	padding: 10px 0 0 0;
+}
+
+.logo p{
+	width: 120px;
+	float: left;
+	padding: 5px 0 0 10px;
+}
+
+.super-menu {
+	height: inherit;
+	width: 476px;
+}
+
+.super-menu li{
+	float: left;
+	border-left: solid 1px #141414;
+	padding: 10px 0px;
+}
+
+.super-menu li:last-child{
+	border-right: solid 1px #141414;
+}
+
+.super-menu a{
+	color: #6d6c6c;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 9px 10px;
+	text-decoration: none;
+	border-left: solid 1px #6d6c6c;
+}
+
+.super-menu a[title="программы и шоу"]{
+	border-right: solid 1px #6d6c6c;
+}
+
+.mid_head{
+	min-height: 52px;
+	background: url(../images/Head/mid_head_03.png) repeat-x;
+	position: relative;
+}
+
+.look_up{
+	width: 1000px;
+	position: relative;
+}
+
+.arrowBot {
+	width: 50px;
+	min-height: 34px;
+	background: url(../images/Head/arrows_09.png) no-repeat;
+	position: absolute;
+	z-index: 1;
+	top: 28px;
+}
+
+.arrowMid {
+	width: 99px;
+	min-height: 62px;
+	background: url(../images/Head/arrows_06.png) no-repeat;
+	position: absolute;
+	z-index: 1;
+	top: 8px;
+	left: 560px;
+}
+
+.arrowTop {
+	width: 77px;
+	min-height: 45px;
+	background: url(../images/Head/arrows_03.png) no-repeat;
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+	left: 915px;
+}
+
+
+.login {
+	width: 245px;
+	min-height: inherit;
+	padding: 20px;
+}
+
+.login li{
+	float: left;
+	padding: 0 15px;
+}
+
+.login li+li{
+	border-left: solid 1px white;
+}
+
+.login a{
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+.middle {
+	position: relative;
+	z-index: 0;
+}
+
+.search{
+	width: 430px;
+	padding: 10px 55px;
+}
+
+.search input{
+	width: 317px;
+	min-height: 20px;
+	border-radius: 5px;
+	padding: 2px 0 0 10px;
+}
+
+.bordSearch {
+	width: 60px;
+	min-height: 50px;
+	padding-top: 5px;
+}
+
+.search label{
+	margin: 5px 10px;
+	color: white;
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.borderLeft{
+	width: 15px;
+	min-height: 50px;
+	background: url(../images/Head/search-bord_03.png) no-repeat;
+	margin-top: -10px;
+}
+
+.borderRight{
+	width: 15px;
+	min-height: 50px;
+	background: url(../images/Head/search-bord_05.png) no-repeat;
+	margin-top: -10px;
+}
+
+.dopSearch{
+	width: 265px;
+	min-height: 25px;
+}
+
+.dopSearch a{
+	color: white;
+	font-family: Tahoma;
+	font-size: 10px;
+	text-decoration:  none;
+	float: right;
+}
+
+.bottomHeader {
+	width: 100%;
+	padding: 40px 0 2px 106px;
+}
+
+.bottomHeader p{
+	color: #a8a6a6;
+	font-family: Tahoma;
+	font-size: 19px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 white, -1px -1px 0 black;
+}
+/*Header end*/
+
+content {
+	width: 100%;
+	min-height: 480px;
+	float: left;
+}
+
+/* Footer begin*/
+
+footer{
+	min-height: 180px;
+	position: relative;
+	z-index: 2;
+	background: url(../images/Head/head_top_02.png);
+	clear: both;
+	border-top: solid 6px #c5c5c5;
+	border-bottom: solid 25px #151515;
+}
+
+
+.arrowPositioner{
+	position: relative;
+}
+
+.footArrows{
+	width: 224px;
+	min-height: 100px;
+	position: absolute;
+	z-index: 2;
+	right: 0px;
+	top: -58px;
+	background: url(../images/Head/foot_arrows_03.png) no-repeat; 
+}
+
+footer .wrapper div {
+	padding: 35px 20px 0 15px;
+	color: white;
+}
+
+footer .wrapper h3{
+	color: #6d6c6c;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer .wrapper a{
+	color: white;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.footLogo{
+	clear: both;
+}
+
+.botBorder {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #fff;
+	position: absolute;
+	bottom: -20px;
+	left: 25%;
+}
+/* Footer end*/

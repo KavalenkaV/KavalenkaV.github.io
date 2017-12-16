@@ -1,0 +1,131 @@
+.slider {
+	width: inherit;
+	min-height: 270px;
+	border-top: solid 6px #d0d0d0;
+	border-bottom: solid 6px #d0d0d0;
+
+}
+
+.pic {
+	width: 80%;
+	min-height: 273px;
+	background: url(../images/Slider/picture_02.jpg) no-repeat;
+	margin: 0 auto;
+}
+
+.beforeSlid{
+	min-height: 273px;
+	width: 10%;
+	background: linear-gradient(to left, #031535, #e4e4e4);
+	
+}
+
+.afterSlid{
+	min-height: 273px;
+	width: 10%;
+	background: linear-gradient(to right, #031535, #e4e4e4);
+	margin-left: -5px;
+}
+
+.sliderCentrat{
+	height: 270px;
+	width: 1600px;
+	margin: 0 auto;
+}
+
+.leftArrow {
+	width: 53px;
+	min-height: 53px;
+	margin: 115px 0px 0 -5px;
+}
+
+.rightArrow {
+	width: 53px;
+	min-height: 53px;
+	margin: 115px -5px 0 0;
+}
+
+.description{
+	width: 306px;
+	min-height: 250px;
+	position: relative;
+}
+
+.topDescr{
+	width: 296px;
+	min-height: 170px;
+	background: black;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+.topDescrArrow{
+	width: 55px;
+	min-height: 35px;
+	position: absolute;
+	background: url(../images/Slider/slider-arrows_03.png) no-repeat;
+	top: 5px;
+	right: 10px;
+}
+
+.leftDescrArrow{
+	width: 40px;
+	min-height: 66px;
+	position: absolute;
+	left: -11px;
+	top: 35%;
+	background: url(../images/Slider/slider-arrows_07.png) no-repeat;
+}
+
+.topDescr h3,
+.topDescr p{
+	color: white;
+	font-family: Tahoma;
+}
+
+.topDescr p{padding: 5px 0;}
+
+.descrMid li{
+	float: left;
+	padding: 0 2px;
+	padding-bottom: 0;
+}
+
+.descrRat{
+	width: 205px;
+	margin: 25px 0px 15px 5px;
+}
+
+.descrRat p:first-child{padding: 5px 5px 0 0;}
+
+.descrRat li:first-child,
+.descrRat li:first-child p
+ {
+	padding: 1px 0 0 0;
+}
+
+.buttonsDescr li{
+	height: 42px;
+	float:left;
+	border: solid 1px #cccccc;
+	margin: 5px 5px 0 0;
+}
+
+.buttonsDescr li+li{margin-left: 3px;}
+
+.buttonsDescr li:last-child{
+	padding-right: 0px;
+	float:right;
+}
+
+.pic .wrapper {position: relative;}
+
+.pic .wrapper .bottomArrow{
+	width: 152px;
+	height: 49px;
+	position: absolute;
+	background: url(../images/Slider/slider-arrows_11.png) no-repeat;
+	bottom: -287px;
+	left: 90px;
+}

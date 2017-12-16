@@ -1,0 +1,268 @@
+.leftComment {
+	width: 265px;
+	min-height: 768px;
+	margin: 5px;
+	background: #202020;
+	border-radius: 5px;
+	position: relative;
+}
+
+.leftComment h3{
+	font: 14px Tahoma;
+	font-weight: bold;
+	color: white;
+}
+
+.leftComment p{
+	font: 12px Tahoma;
+	color: #6d6c6c;
+}
+
+.leftComment img{
+	border: 2px solid #6d6c6c;
+}
+
+.leftComment li{	padding: 5px 7px;}
+
+.leftComment li:first-child{ border-bottom: 1px solid black;}
+
+.leftComment li+li{
+	border-bottom: 1px solid black;
+	border-top: 1px solid #343333;
+}
+
+.leftComment li:last-child{ border-bottom: 0px;}
+
+.leftComment td{ padding: 2px 5px; }
+
+.leftInfo{ 
+	position: absolute;
+	width: 170px;
+	min-height: 15px;
+	left: -95px;
+	top: 53%;
+	transform: rotate(-90deg);
+}
+
+.rightComment{
+	width: 470px;
+	min-height: 768px;
+}
+
+.topComment,
+.middleComment {
+	width: 418px;
+	min-height: 240px;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 5px 25px 0 17px;
+	position: relative;
+	margin-top: 5px;
+}
+
+.topComment h3{
+	font: 11px Tahoma;
+	color: black;
+	font-weight: bold;
+}
+
+.topComment>h3:first-of-type{ 
+	text-transform: uppercase; 
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.topComment table h3{	
+	font: 11px Tahoma;
+	font-weight: bold;
+}
+
+.topComment table+h3{ font-size: 14px;}
+
+.topComment p{
+	font: 11px Tahoma;
+	color: black;
+}
+
+.topComment table{	margin: 10px 0;}
+
+.topComment tr{ padding: 5px 0; }
+
+.topComment td:nth-child(2){ padding-left: 10px; }
+
+.mark{
+	width: 90px;
+	min-height: 35px;
+	position: absolute;
+	background: url(../images/Main/Comments/Arrows_comment_03.png) no-repeat;
+	top: 10px;
+	right: 10px;
+}
+.mark p{	
+	color: #9e067f;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 0 0 40px;
+}
+
+.middleComment{ 
+	width: 460px;
+	padding: 10px 0;
+}
+
+.middleComment p{
+	font: 14px Tahoma;
+	font-weight: bold;
+	color: black;
+	padding: 0px 5px;
+}
+
+.middleComment img{
+	border: 2px solid #6d6c6c;
+	border-radius: 2px;
+	position: absolute;
+	top: 35px;
+	left: 2px;
+}
+
+.middleComment a{
+	position: absolute;
+	top: 40px;
+	right: 15px;
+	padding: 43px ;
+	background: url(../images/Main/Comments/play_03.png) no-repeat;
+}
+
+.botComment {
+	width: 445px;
+	min-height: 175px;
+	padding: 5px 5px 0 10px;
+	background: #c7c7c7;
+	border-radius: 5px;
+}
+
+.firstComment{
+	width: inherit;
+	min-height: 75px;
+}
+
+.firstComment a,
+.secondComment a{
+	float: left;
+	text-decoration: none;
+	font: 10px Tahoma;
+	color: #92006b;
+	text-align: justify;
+}
+
+.leftPartComment {
+	min-height: 75px;
+	width: 70px;
+}
+
+.leftPartComment img{
+	padding: 1px;
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+}
+
+.topPartComment {
+	width: 360px;
+	color: white;
+	background: #1e1e1e;
+	border: 1px solid #191919;
+	border-radius: 5px;
+}
+
+.topPartComment a{
+	width: 340px;
+	padding: 3px 5px 3px 16px;
+	background: url(../images/Main/Comments/Arrows_comment_18.png) 2px center no-repeat;
+	color: #dfdfdf;
+	font: 12px Tahoma;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+.topPartComment a p,
+.Comment a p{
+	float: right;
+	color: #999898;
+	font-size: 8.5px;
+	padding-top: 3px;
+}
+
+.topPartComment a+p,
+.Comment a+p{
+	color: white;
+	font: 12px Tahoma;
+	padding: 5px;
+	border-top: 1px solid #343333;
+	float: left;
+}
+.secondComment{
+	width: 370px;
+	min-height: 75px;
+	margin-top: 5px;
+}
+
+.Comment{
+	width: 295px;
+	min-height: 70px;
+	border-radius: 5px;
+	background: #f5f5f5;
+}
+
+.Comment a{
+	border-bottom: 1px solid #e4e4e4;
+	width: 274px;
+	padding: 3px 5px 3px 16px;
+	background: url(../images/Main/Comments/Arrows_comment_18.png) 2px center no-repeat;
+	font: 12px Tahoma;
+	font-weight: bold;
+}
+
+.Comment a+p{
+	color: black;
+	border-top: white;
+}
+
+.rightComment form{
+	width: 450px;
+	min-height: 75px;
+	padding: 5px;
+	margin-top: 5px; 
+	background: #c7c7c7;
+	border-radius: 5px;
+	float: left;
+}
+
+.rightComment form textarea{
+	width: 435px;
+	min-height: 55px;
+	border: 1px solid #828282;
+	border-radius: 2px;
+	color: #454444;
+	background-color: white;
+	resize: none;
+	padding: 5px; 
+}
+
+.rightComment form textarea::-webkit-placeholder {
+	color: #454444;
+}
+
+.rightComment form textarea::-moz-placeholder {
+	color: #454444;
+}
+
+.rightComment input{
+	border: none;
+	color: white;
+	font: 12px Tahoma;
+	background: #1955b0;
+	border-radius: 3px;
+	margin: 3px;
+	box-shadow: -1px -1px 1px black;
+}

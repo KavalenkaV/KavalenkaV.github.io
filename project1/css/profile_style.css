@@ -1,0 +1,161 @@
+body{
+	position: relative;
+}
+
+.modaleWindow{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 666;
+}
+
+.borderProf{
+	width: 650px;
+	min-height: 160px;
+	padding: 20px 10px 35px 10px;
+	margin: 150px auto;
+}
+.profile{
+	width: 640px;
+	min-height: 160px;
+	background-color: #232323; 
+	padding: 0 5px 15px 5px;
+	border-radius: 5px; 
+}
+
+.blackMamba {
+	width: inherit;
+	min-height: 345px;
+	background-color: #fcfcfc;
+	border-radius: 0 0 5px 5px;
+}
+
+.topProfile{
+	width: inherit;
+	min-height: 160px;
+	background-color: #232323;
+	border-radius: 0 0 5px 5px;
+}
+
+.avatar{
+	width: 218px;
+	min-height: 149px;
+	padding: 3px 10px 0 5px;
+	border-right: solid 1px #383838;
+}
+
+.avatar img{
+	border: solid 2px #8f8787;
+}
+
+
+.rightProfile {
+	width: 405px;
+	min-height: 160px;
+	color: white;
+	position: relative;
+}
+
+.userProfile{
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+	padding: 3px 0 3px 8px;
+}
+
+.userProfile span{
+	font-weight: bold;
+}
+
+.userData{
+	border-top: solid 1px #383838;
+	border-left: solid 1px black;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.userData td{
+	padding-right: 20px;
+	line-height: 13px;
+}
+
+.userData span{
+	font-weight: bold;
+}
+
+.arrowProfile {
+	width: 100px;
+	min-height: 64px;
+	position: absolute;
+	background: url(../images/profile/profile_arrow_03.png) no-repeat;
+	bottom: -19px;
+	right: 1px;
+}
+
+.bottomProfile{
+	width: inherit;
+	min-height: 185px;
+}
+
+.midProfile{
+	width: inherit;
+	min-height: 150px;
+	padding: 10px 5px;
+	background: url(../images/profile/Image_prof_03.png) 275px center no-repeat;
+	position: relative;
+	border-radius: 0 0 5px 5px;
+}
+
+.midProfile span{
+	font-weight: bold;
+
+}
+
+.midProfile td{
+	line-height: 17px;
+	padding: 5px 15px 0 10px;
+}
+
+.midProfile tr:nth-child(5){
+	padding: 15px 0;
+	background: url(../images/profile/shadow_03.png) 35px 15px no-repeat;
+}
+
+.midProfile tr:nth-child(5) span{
+	color: #fcfcfc;
+}
+
+.profileMenu {
+	width: 410px;
+	min-height: 25px;
+	margin: 0 auto;
+	background: black;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.profileMenu li {
+	float:left;
+	padding: 5px 10px;
+}
+
+.profileMenu a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.rightRule {
+	position: absolute;
+	transform: rotate(-90deg);
+	right: -1px;
+	top: 90px;
+}
+
+.rightRule a{
+	text-decoration: none;
+	color: #1a58b6;
+}

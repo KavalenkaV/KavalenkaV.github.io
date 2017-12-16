@@ -1,0 +1,152 @@
+.mainCenter {
+	min-height: 768px;
+	width: 100%;
+	margin-top: 10px ;
+}
+
+.rightNav{
+	width: 245px;
+	min-height: 768px;
+	background: #202020;
+	margin-bottom: 115px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.firstNav,
+.lastNav{
+	width: 235px;
+	min-height: 210px;
+	padding: 5px 5px 15px 5px;
+}
+
+.headNav {
+	width: 160px;
+	min-height: 35px;
+	padding: 5px 0 0 70px;
+	background: url(../images/Main/Navigation/nav_block_03.png) no-repeat;
+	color: white;
+}
+
+.headNav select{
+	width: 45px;
+	background-color: #000;
+	color: red;
+	border: none;
+	margin-top: -5px;
+}
+
+.headNav h3{
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+.firstNav td{
+	padding: 5px;
+}
+
+.firstNav tr:nth-child(n+1) td:first-child {color: red;}
+
+.firstNav tr:nth-child(odd) td:nth-child(2),
+.firstNav tr:nth-child(odd) td:last-child {color: white;}
+
+.firstNav tr:nth-child(2n) td:first-child{
+	color: #787777;
+	padding: 0 25px;
+}
+
+.firstNav tr:nth-child(odd) td:last-child{
+	text-align: right;
+	width: 80px;
+}
+
+li .firstNav li{
+	margin: 5px;
+}
+
+.firstNav p{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: white;
+	margin: 5px 0 15px 0;
+}
+
+li .firstNav a{
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: red;
+	font-weight: bold;
+}
+
+.headNav h3 span{
+	color: red;
+	font-size: 9px;
+}
+
+.movieOrder tr:nth-child(odd) td,
+.movieOrder tr td a{ 
+	color:white;
+	font: 11px Tahoma;
+	text-decoration: none;
+}
+
+.movieOrder tr:nth-child(odd) td:first-child{font-size: 12px;}
+
+.movieOrder tr:nth-child(even){
+	color: #787777;
+	font-size: 11px;
+	font-family: Tahoma;
+}
+
+.movieOrder tr td+td{width: 35px;}
+
+.movieOrder td{padding: 5px 5px 0 5px;}
+
+.lastNav {border-bottom: solid 1px black;}
+
+.randomMov{
+	width: 235px;
+	min-height: 135px;
+	border-top: solid 1px #343333;
+	padding: 5px;
+	border-bottom: solid 1px black;
+}
+
+.randomMov h3{
+	text-transform: uppercase;
+	color: #6e6a6a;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+
+.Movie {
+	width: 222px;
+	min-height: 25px;
+	background: url(../images/Main/Navigation/screen_nav_07.jpg) no-repeat;
+	padding-top: 70px;
+	margin: 0 auto;
+}
+
+.Movie a,
+.Movie+a{
+	text-decoration: none;
+	color: white;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding: 90px 60% 0 5px; 
+}
+
+.Movie+a{
+	padding: 5px;
+}
+
+.lastHoupe{
+	border-top: solid 1px #343333;
+	padding-top: 10px;
+	display: block;
+ 	width: 245px;
+ 	float: right;
+}
