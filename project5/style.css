@@ -1,0 +1,2120 @@
+.wrapper {
+	width: 300px;
+	min-height: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.sqr{
+	width:25px;
+	height: 25px;
+	float: left;
+}
+
+.b6, .b7, .c6, .e6 {
+	background-color: #a46936;
+}
+
+.c7, .e7{
+	background-color: #7d4a36;
+}
+
+.d5, .d8, .e5, .e8, .h4, .i1  {
+	background-color: #980000;
+}
+
+.d7 {
+	background-color: #f0c28e;
+}
+
+.e4, .f5, .g5, .j8, .k8, .l8, .m8{
+	background-color: #f0a933;
+}
+
+.e9, .f8, .g8, .g9, .j6, .k6, .l6 {
+	background-color: #d57424;
+}
+
+.f3, .f4, .h6, .i6, .i10, .m6, .n6, .o6 {
+	background-color: #6f7470;
+}
+
+.f9, .g3, .h3, .g10, .h10, .h7, .i7, .m7 {
+	background-color: #3b4747;
+}
+
+.h1, .h2 {
+	background-color: #be363e;
+}
+
+.f6, .g6{
+	background-color: #fff18b;
+}
+
+.f7, .g7{
+	background-color: #ffdc5a;
+}
+
+.n7, .n8, .n9, .n10, .n11, .n12,
+.o7, .o8, .o9, .o10, .o11, .o12 {
+	background-color: #b5d5e8;
+}
+
+.wrapper:hover .b6,
+.wrapper:hover .b7 {
+		animation: color1 0.4s infinite;
+}
+
+@keyframes color1 {
+	from {
+		background-color: #a46936;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #a46936;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .c7 {
+		animation: color2 0.4s infinite;
+}
+
+@keyframes color2 {
+	from {
+		background-color: #7b4b37;
+	}
+	
+	25% {
+		background-color: #a66835;
+	}
+
+	50% {
+		background-color: #a66835;
+	}
+
+	75% {
+		background-color: #7b4b37;
+	}
+
+	to{
+		background-color: #a66835;
+	}
+}
+
+.wrapper:hover .d5,
+.wrapper:hover .d8 {
+		animation: color3 0.4s infinite;
+}
+
+@keyframes color3 {
+	from {
+		background-color: #900600;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #900600;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .d7 {
+		animation: color4 0.4s infinite;
+}
+
+@keyframes color4 {
+	from {
+		background-color: #edc587;
+	}
+	
+	25% {
+		background-color: #7d4a2d;
+	}
+
+	50% {
+		background-color: #7d4a2d;
+	}
+
+	75% {
+		background-color: #edc587;
+	}
+
+	to{
+		background-color: #7d4a2d;
+	}
+}
+
+.wrapper:hover .d6 {
+		animation: color5 0.4s infinite;
+}
+
+@keyframes color5 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #a7644a;
+	}
+
+	50% {
+		background-color: #a7644a;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #a7644a;
+	}
+}
+
+.wrapper:hover .e4 {
+		animation: color6 0.4s infinite;
+}
+
+@keyframes color6 {
+	from {
+		background-color: #f0a933;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #f0a933;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .e6 {
+		animation: color7 0.4s infinite;
+}
+
+@keyframes color7 {
+	from {
+		background-color: #a9692c;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #a9692c;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .e7 {
+		animation: color8 0.4s infinite;
+}
+
+@keyframes color8 {
+	from {
+		background-color: #7d4a35;
+	}
+	
+	25% {
+		background-color: #f0c38c;
+	}
+
+	50% {
+		background-color: #f0c38c;
+	}
+
+	75% {
+		background-color: #7d4a35;
+	}
+
+	to{
+		background-color: #f0c38c;
+	}
+}
+
+.wrapper:hover .e9 {
+		animation: color9 0.4s infinite;
+}
+
+@keyframes color9 {
+	from {
+		background-color: #d57425;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #d57425;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .f3 {
+		animation: color10 0.4s infinite;
+}
+
+@keyframes color10 {
+	from {
+		background-color: #6e7472;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .f4 {
+		animation: color11 0.4s infinite;
+}
+
+@keyframes color11 {
+	from {
+		background-color: #6b776d;
+	}
+	
+	25% {
+		background-color: #f5a834;
+	}
+
+	50% {
+		background-color: #f5a834;
+	}
+
+	75% {
+		background-color: #71717b;
+	}
+
+	to{
+		background-color: #71717b;
+	}
+}
+
+.wrapper:hover .f5 {
+		animation: color12 0.4s infinite;
+}
+
+@keyframes color12 {
+	from {
+		background-color: #eda843;
+	}
+	
+	25% {
+		background-color: #a1000a;
+	}
+
+	50% {
+		background-color: #a1000a;
+	}
+
+	75% {
+		background-color: #eda843;
+	}
+
+	to{
+		background-color: #a1000a;
+	}
+}
+
+.wrapper:hover .f6 {
+		animation: color13 0.4s infinite;
+}
+
+@keyframes color13 {
+	from {
+		background-color: #ffeba3;
+	}
+	
+	25% {
+		background-color: #a56c27;
+	}
+
+	50% {
+		background-color: #a56c27;
+	}
+
+	75% {
+		background-color: #ffeba3;
+	}
+
+	to{
+		background-color: #a56c27;
+	}
+}
+
+.wrapper:hover .f7 {
+		animation: color14 0.4s infinite;
+}
+
+@keyframes color14 {
+	from {
+		background-color: #ffd95c;
+	}
+	
+	25% {
+		background-color: #844734;
+	}
+
+	50% {
+		background-color: #844734;
+	}
+
+	75% {
+		background-color: #ffd95c;
+	}
+
+	to{
+		background-color: #844734;
+	}
+}
+
+.wrapper:hover .f8 {
+		animation: color15 0.4s infinite;
+}
+
+@keyframes color15 {
+	from {
+		background-color: #c67b2a;
+	}
+	
+	25% {
+		background-color: #99000b;
+	}
+
+	50% {
+		background-color: #99000b;
+	}
+
+	75% {
+		background-color: #c67b2a;
+	}
+
+	to{
+		background-color: #99000b;
+	}
+}
+
+.wrapper:hover .f9 {
+		animation: color16 0.4s infinite;
+}
+
+@keyframes color16 {
+	from {
+		background-color: #39493f;
+	}
+	
+	25% {
+		background-color: #71736e;
+	}
+
+	50% {
+		background-color: #71736e;
+	}
+
+	75% {
+		background-color: #39493f;
+	}
+
+	to{
+		background-color: #d47427;
+	}
+}
+
+.wrapper:hover .f10 {
+		animation: color17 0.4s infinite;
+}
+
+@keyframes color17 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #3f4448;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .g3 {
+		animation: color18 0.4s infinite;
+}
+
+@keyframes color18 {
+	from {
+		background-color: #354d33;
+	}
+	
+	25% {
+		background-color: #717962;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #717962;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .g4 {
+		animation: color19 0.4s infinite;
+}
+
+@keyframes color19 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #717870;
+	}
+
+	50% {
+		background-color: #717870;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #38474c;
+	}
+}
+
+.wrapper:hover .g5 {
+		animation: color20 0.4s infinite;
+}
+
+@keyframes color20 {
+	from {
+		background-color: #f6a637f6a637;
+	}
+	
+	25% {
+		background-color: #d7722a;
+	}
+
+	50% {
+		background-color: #d7722a;
+	}
+
+	75% {
+		background-color: #f6a637;
+	}
+
+	to{
+		background-color: #f6a637;
+	}
+}
+
+.wrapper:hover .g9 {
+		animation: color21 0.4s infinite;
+}
+
+@keyframes color21 {
+	from {
+		background-color: #d2782a;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #394440;
+	}
+}
+
+.wrapper:hover .g10 {
+		animation: color22 0.4s infinite;
+}
+
+@keyframes color22 {
+	from {
+		background-color: #354c3a;
+	}
+	
+	25% {
+		background-color: #354c3a;
+	}
+
+	50% {
+		background-color: #354c3a;
+	}
+
+	75% {
+		background-color: #354c3a;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .h1,
+.wrapper:hover .h2 {
+		animation: color23 0.4s infinite;
+}
+
+@keyframes color23 {
+	from {
+		background-color: #c1363b;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .h3 {
+		animation: color24 0.4s infinite;
+}
+
+@keyframes color24 {
+	from {
+		background-color: #344c3f;
+	}
+	
+	25% {
+		background-color: #767072;
+	}
+
+	50% {
+		background-color: #767072;
+	}
+
+	75% {
+		background-color: #767072;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .h4 {
+		animation: color25 0.4s infinite;
+}
+
+@keyframes color25 {
+	from {
+		background-color: #950000;
+	}
+	
+	25% {
+		background-color: #f0a933;
+	}
+
+	50% {
+		background-color: #f0a933;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #3b4747;
+	}
+}
+
+.wrapper:hover .h5 {
+		animation: color26 0.4s infinite;
+}
+
+@keyframes color26 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #c87b1f;
+	}
+
+	50% {
+		background-color: #c87b1f;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #edab33;
+	}
+}
+
+.wrapper:hover .h6 {
+		animation: color27 0.4s infinite;
+}
+
+@keyframes color27 {
+	from {
+		background-color: #6f7567;
+	}
+	
+	25% {
+		background-color: #fff08a;
+	}
+
+	50% {
+		background-color: #fff08a;
+	}
+
+	75% {
+		background-color: #3e424b;
+	}
+
+	to{
+		background-color: #fff08a;
+	}
+}
+
+.wrapper:hover .h7 {
+		animation: color28 0.4s infinite;
+}
+
+@keyframes color28 {
+	from {
+		background-color: #3b4747;
+	}
+	
+	25% {
+		background-color: #ffdc5a;
+	}
+
+	50% {
+		background-color: #ffdc5a;
+	}
+
+	75% {
+		background-color: #3b4747;
+	}
+
+	to{
+		background-color: #ffdc5a;
+	}
+}
+
+.wrapper:hover .h8 {
+		animation: color29 0.4s infinite;
+}
+
+@keyframes color29 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #d07725;
+	}
+
+	50% {
+		background-color: #d07725;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #f4a731;
+	}
+}
+
+.wrapper:hover .h10 {
+		animation: color30 0.4s infinite;
+}
+
+@keyframes color30 {
+	from {
+		background-color: #36484c;
+	}
+	
+	25% {
+		background-color: #36484c;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #36484c;
+	}
+
+	to{
+		background-color: #36484c;
+	}
+}
+
+.wrapper:hover .i1 {
+		animation: color31 0.4s infinite;
+}
+
+@keyframes color31 {
+	from {
+		background-color: #8f0401;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #8f0401;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .i2 {
+		animation: color32 0.4s infinite;
+}
+
+@keyframes color32 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #97000e;
+	}
+
+	to{
+		background-color: #be344d;
+	}
+}
+
+.wrapper:hover .i3 {
+		animation: color33 0.4s infinite;
+}
+
+@keyframes color33 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #6c786e;
+	}
+
+	50% {
+		background-color: #6c786e;
+	}
+
+	75% {
+		background-color: #3d4351;
+	}
+
+	to{
+		background-color: #c23730;
+	}
+}
+
+.wrapper:hover .i4 {
+		animation: color34 0.4s infinite;
+}
+
+@keyframes color34 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #950101;
+	}
+
+	to{
+		background-color: #6f756b;
+	}
+}
+
+.wrapper:hover .i5 {
+		animation: color35 0.4s infinite;
+}
+
+@keyframes color35 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #9a001b;
+	}
+}
+
+.wrapper:hover .i6 {
+		animation: color36 0.4s infinite;
+}
+
+@keyframes color36 {
+	from {
+		background-color: #767072;
+	}
+	
+	25% {
+		background-color: #43464f;
+	}
+
+	50% {
+		background-color: #43464f;
+	}
+
+	75% {
+		background-color: #767072;
+	}
+
+	to{
+		background-color: #767072;
+	}
+}
+
+.wrapper:hover .i10 {
+		animation: color37 0.4s infinite;
+}
+
+@keyframes color37 {
+	from {
+		background-color: #726f76;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #3c463b;
+	}
+}
+
+.wrapper:hover .j1 {
+		animation: color38 0.4s infinite;
+}
+
+@keyframes color38 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #990200;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #bf373b;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .j2 {
+		animation: color39 0.4s infinite;
+}
+
+@keyframes color39 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #990200;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #95020a;
+	}
+}
+
+.wrapper:hover .j3 {
+		animation: color40 0.4s infinite;
+}
+
+@keyframes color40 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #3d434f;
+	}
+
+	50% {
+		background-color: #6e756e;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .j4 {
+		animation: color41 0.4s infinite;
+}
+
+@keyframes color41 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #950000;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .j5 {
+		animation: color42 0.4s infinite;
+}
+
+@keyframes color42 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #f6a637;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .j6 {
+		animation: color43 0.4s infinite;
+}
+
+@keyframes color43 {
+	from {
+		background-color: #d17623;
+	}
+	
+	25% {
+		background-color: #727274;
+	}
+
+	50% {
+		background-color: #727274;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #727274;
+	}
+}
+
+.wrapper:hover .j7 {
+		animation: color44 0.4s infinite;
+}
+
+@keyframes color44 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #3b4747;
+	}
+
+	50% {
+		background-color: #3b4747;
+	}
+
+	75% {
+		background-color: #d57425;
+	}
+
+	to{
+		background-color: #3b4747;
+	}
+}
+
+.wrapper:hover .j8 {
+		animation: color45 0.4s infinite;
+}
+
+@keyframes color45 {
+	from {
+		background-color: #f3a831;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .j10 {
+		animation: color46 0.4s infinite;
+}
+
+@keyframes color46 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #3b4359;
+	}
+}
+
+.wrapper:hover .k1 {
+		animation: color47 0.4s infinite;
+}
+
+@keyframes color47 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #b73b39;
+	}
+
+	50% {
+		background-color: #930300;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k2 {
+		animation: color48 0.4s infinite;
+}
+
+@keyframes color48 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #96000a;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k3 {
+		animation: color49 0.4s infinite;
+}
+
+@keyframes color49 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #354755;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k4 {
+		animation: color50 0.4s infinite;
+}
+
+@keyframes color50 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #970600;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k5 {
+		animation: color51 0.4s infinite;
+}
+
+@keyframes color51 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #f5ae14;
+	}
+
+	to{
+		background-color: #f5ae14;
+	}
+}
+
+.wrapper:hover .k6 {
+		animation: color52 0.4s infinite;
+}
+
+@keyframes color52 {
+	from {
+		background-color: #de6f2a;
+	}
+	
+	25% {
+		background-color: #de6f2a;
+	}
+
+	50% {
+		background-color: #de6f2a;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k7 {
+		animation: color53 0.4s infinite;
+}
+
+@keyframes color53 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #f6a731;
+	}
+
+	75% {
+		background-color: #d7751c;
+	}
+
+	to{
+		background-color: #d7751c;
+	}
+}
+
+.wrapper:hover .k8 {
+		animation: color54 0.4s infinite;
+}
+
+@keyframes color54 {
+	from {
+		background-color: #fba433;
+	}
+	
+	25% {
+		background-color: #fba433;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .k10 {
+		animation: color55 0.4s infinite;
+}
+
+@keyframes color55 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #76715e;
+	}
+}
+
+.wrapper:hover .l1 {
+		animation: color56 0.4s infinite;
+}
+
+@keyframes color56 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #c63824;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .l5 {
+		animation: color57 0.4s infinite;
+}
+
+@keyframes color57 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #f0a548;
+	}
+
+	to{
+		background-color: #f0a548;
+	}
+}
+
+.wrapper:hover .l6 {
+		animation: color58 0.4s infinite;
+}
+
+@keyframes color58 {
+	from {
+		background-color: #de7025;
+	}
+	
+	25% {
+		background-color: #de7025;
+	}
+
+	50% {
+		background-color: #de7025;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .l7 {
+		animation: color59 0.4s infinite;
+}
+
+@keyframes color59 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #e8ae33;
+	}
+
+	75% {
+		background-color: #d17528;
+	}
+
+	to{
+		background-color: #d17528;
+	}
+}
+
+.wrapper:hover .l8 {
+		animation: color60 0.4s infinite;
+}
+
+@keyframes color60 {
+	from {
+		background-color: #dfad4c;
+	}
+	
+	25% {
+		background-color: #dfad4c;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .m5 {
+		animation: color61 0.4s infinite;
+}
+
+@keyframes color61 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #f0a83c;
+	}
+
+	to{
+		background-color: #f0a83c;
+	}
+}
+
+.wrapper:hover .m6 {
+		animation: color62 0.4s infinite;
+}
+
+@keyframes color62 {
+	from {
+		background-color: #6a7565;
+	}
+	
+	25% {
+		background-color: #d77423;
+	}
+
+	50% {
+		background-color: #d77423;
+	}
+
+	75% {
+		background-color: #3b4640;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .m7 {
+		animation: color63 0.4s infinite;
+}
+
+@keyframes color63 {
+	from {
+		background-color: #3b4747;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #f0a933;
+	}
+
+	75% {
+		background-color: #6f7470;
+	}
+
+	to{
+		background-color: #d57425;
+	}
+}
+
+.wrapper:hover .m8 {
+		animation: color64 0.4s infinite;
+}
+
+@keyframes color64 {
+	from {
+		background-color: #eaac35;
+	}
+	
+	25% {
+		background-color: #eaac35;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .n5 {
+		animation: color65 0.4s infinite;
+}
+
+@keyframes color65 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #eaaa48;
+	}
+}
+
+.wrapper:hover .n6 {
+		animation: color66 0.4s infinite;
+}
+
+@keyframes color66 {
+	from {
+		background-color: #707183;
+	}
+	
+	25% {
+		background-color: #344a47;
+	}
+
+	50% {
+		background-color: #344a47;
+	}
+
+	75% {
+		background-color: #b6d2ea;
+	}
+
+	to{
+		background-color: #fff;
+	}
+}
+
+.wrapper:hover .n7 {
+		animation: color67 0.4s infinite;
+}
+
+@keyframes color67 {
+	from {
+		background-color: #b6d2ea;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #6e7766;
+	}
+
+	75% {
+		background-color: #6e7766;
+	}
+
+	to{
+		background-color: #3b464c;
+	}
+}
+
+.wrapper:hover .n8 {
+		animation: color68 0.4s infinite;
+}
+
+@keyframes color68 {
+	from {
+		background-color: #b5d5ea;
+	}
+	
+	25% {
+		background-color: #de6e3c;
+	}
+
+	50% {
+		background-color: #b5d5ea;
+	}
+
+	75% {
+		background-color: #b5d5ea;
+	}
+
+	to{
+		background-color: #b5d5ea;
+	}
+}
+
+.wrapper:hover .n12, 
+.wrapper:hover .o12 {
+		animation: color69 0.4s infinite;
+}
+
+@keyframes color69 {
+	from {
+		background-color: #b5d6e5;
+	}
+	
+	25% {
+		background-color: #b5d6e5;
+	}
+
+	50% {
+		background-color: #b5d6e5;
+	}
+
+	75% {
+		background-color: #b5d6e5;
+	}
+
+	to{
+		background-color: #fff;
+	}
+} 
+
+.wrapper:hover .o5 {
+		animation: color70 0.4s infinite;
+}
+
+@keyframes color70 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #717469;
+	}
+} 
+
+.wrapper:hover .o6 {
+		animation: color71 0.4s infinite;
+}
+
+@keyframes color71 {
+	from {
+		background-color: #6c766d;
+	}
+	
+	25% {
+		background-color: #3d473e;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+} 
+
+.wrapper:hover .o7 {
+		animation: color72 0.4s infinite;
+}
+
+@keyframes color72 {
+	from {
+		background-color: #b5d6e9;
+	}
+	
+	25% {
+		background-color: #b5d6e9;
+	}
+
+	50% {
+		background-color: #6f7470;
+	}
+
+	75% {
+		background-color: #6f7470;
+	}
+
+	to{
+		background-color: #3b4747;
+	}
+} 
+
+
+.wrapper:hover .o8 {
+		animation: color79 0.4s infinite;
+}
+
+@keyframes color79 {
+	from {
+		background-color: #b5d6e5;
+	}
+	
+	25% {
+		background-color: #687967;
+	}
+
+	50% {
+		background-color: #b5d6e5;
+	}
+
+	75% {
+		background-color: #b5d6e5;
+	}
+
+	to{
+		background-color: #b5d6e5;
+	}
+} 
+
+.wrapper:hover .p5 {
+		animation: color73 0.4s infinite;
+}
+
+@keyframes color73 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #6f6f79;
+	}
+} 
+.wrapper:hover .p7 {
+		animation: color74 0.4s infinite;
+}
+
+@keyframes color74 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #6f717d;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+} 
+
+.wrapper:hover .p8 {
+		animation: color75 0.4s infinite;
+}
+
+@keyframes color75 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #727176;
+	}
+
+	50% {
+		background-color: #b5d7e1;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+} 
+
+.wrapper:hover .p9 {
+		animation: color76 0.4s infinite;
+}
+
+@keyframes color76 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #b5d7e1;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #fff;
+	}
+} 
+
+.wrapper:hover .q5 {
+		animation: color77 0.4s infinite;
+}
+
+@keyframes color77 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #3c483e;
+	}
+} 
+
+.wrapper:hover .q6,
+.wrapper:hover .q7 {
+		animation: color78 0.4s infinite;
+}
+
+@keyframes color78 {
+	from {
+		background-color: #fff;
+	}
+	
+	25% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #fff;
+	}
+
+	75% {
+		background-color: #fff;
+	}
+
+	to{
+		background-color: #b5d7e1;
+	}
+} 
