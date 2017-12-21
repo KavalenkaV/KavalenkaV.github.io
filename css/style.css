@@ -37,7 +37,7 @@ a {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1.1em;
-	font-size: 1.9vmax;
+	font-size: 1.6em;
 	font-weight: bold;
 }
 
@@ -92,7 +92,7 @@ a {
 }
 
 .website dt{
-	font-size: 1.3vmax;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 5px 0;
@@ -100,8 +100,8 @@ a {
 
 .website dd,
 .website li{
-	font-size: 1.1vmax;
-	letter-spacing: 0.01vmax;
+	font-size: 1.0em;
+	letter-spacing: 0.01em;
 	margin: 0 0 20px 35px;
 	text-align: justify;
 }
@@ -114,7 +114,7 @@ a {
 .website h3{
 	font-family: alien;
 	text-align: center;
-	font-size: 1.3vmax;
+	font-size: 1.3em;
 	margin-bottom: 25px;
 	text-transform: uppercase;
 }
