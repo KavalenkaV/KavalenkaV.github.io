@@ -63,7 +63,6 @@ a {
 
 .nav_bar>section {
 	display: none;
-	position: absolute;
 	top: -100px;
 	right: 255px;
 }
@@ -84,6 +83,7 @@ a {
 	width:35vmax;
 	height: 100%;
 	margin: 50px 0;
+	position: absolute;
 }
 
 .website dl,
@@ -114,15 +114,14 @@ a {
 .website h3{
 	font-family: alien;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 35px;
 	margin-bottom: 25px;
 	text-transform: uppercase;
 }
 
 .website>h3{
-	transform: rotate(-90deg);
+	transform: rotate(270deg);
 	position: absolute;
 	bottom: -50px;
 	left: -220px;
-	font-size: 35px;
 }
