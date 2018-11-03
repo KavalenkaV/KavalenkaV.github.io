@@ -54,7 +54,7 @@ a {
 .nav_bar p {
 	padding: 5px 5px 0 0;
 	text-align: right;
-	font-size: 25px;
+	font-size: 1em;
 } 
 
 .nav_bar > input + label:hover {
@@ -81,7 +81,7 @@ a {
 /* ____________________________________________________________ */
 
 .website {
-	width:650px;
+	width:35vmax;
 	height: 100%;
 	margin: 50px 0;
 }
