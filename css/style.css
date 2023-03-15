@@ -96,14 +96,16 @@ a {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 5px 0;
+	line-height: 2.5;
 }
 
 .website dd,
 .website li{
 	font-size: 1.0em;
-	letter-spacing: 0.01em;
+	letter-spacing: 0.045em;
 	margin: 0 0 20px 35px;
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .website i{
